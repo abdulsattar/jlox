@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2887beed-74e3-40b7-ac4e-4bd60cedea38" name="Changes" comment="add parser">
-      <change afterPath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/AstPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Expr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Parser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/craftinginterpreters/tool/GenerateAst.java" afterDir="false" />
+    <list default="true" id="2887beed-74e3-40b7-ac4e-4bd60cedea38" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Interpreter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/RuntimeError.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Lox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Lox.java" afterDir="false" />
     </list>
@@ -43,6 +41,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.craftinginterpreters.lox" />
       <recent name="" />
     </key>
   </component>
@@ -97,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674449722153</updated>
-      <workItem from="1674449723160" duration="11542000" />
+      <workItem from="1674449723160" duration="13490000" />
     </task>
     <task id="LOCAL-00001" summary="add scanner">
       <created>1674459930629</created>
@@ -106,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674459930629</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add parser">
+      <created>1674466881733</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674466881733</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
