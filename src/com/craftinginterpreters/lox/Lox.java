@@ -41,11 +41,11 @@ public class Lox {
         Scanner scanner = new Scanner(source);
         List<Token> tokens = scanner.scanTokens();
         Parser parser = new Parser(tokens);
-        Expr expression = parser.parse();
+        List<Stmt> stmts = parser.parse();
 
         if(hadError) return;
 
-        interpreter.interpret(expression);
+        interpreter.interpret(stmts);
     }
 
     private static void runFile(String path) throws IOException {
