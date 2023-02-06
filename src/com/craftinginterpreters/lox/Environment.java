@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class Environment {
 
-    private final Environment enclosing;
+    final Environment enclosing;
 
     public Environment() {
         enclosing = null;

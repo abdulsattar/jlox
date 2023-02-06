@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2887beed-74e3-40b7-ac4e-4bd60cedea38" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/ClassType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/AstPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/AstPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/AstPrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/ClassType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/ClassType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Environment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Environment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Expr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Expr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/FunctionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/FunctionType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Interpreter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/LoxClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/LoxClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/LoxFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/LoxFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/LoxInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/LoxInstance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Parser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Resolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Resolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Stmt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Stmt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/craftinginterpreters/tool/GenerateAst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/craftinginterpreters/tool/GenerateAst.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +121,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674449722153</updated>
       <workItem from="1674449723160" duration="15163000" />
-      <workItem from="1675502411888" duration="30756000" />
+      <workItem from="1675502411888" duration="32909000" />
     </task>
     <task id="LOCAL-00001" summary="add scanner">
       <created>1674459930629</created>
@@ -173,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675661400731</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add classes">
+      <created>1675675085573</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675675085573</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +204,8 @@
     <MESSAGE value="add control flow" />
     <MESSAGE value="add functions" />
     <MESSAGE value="add methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="add methods" />
+    <MESSAGE value="add classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="add classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
